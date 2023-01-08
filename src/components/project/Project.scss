@@ -20,26 +20,17 @@
   }
 
   .footer {
-    flex-grow: 1;
-    background: var(--light-background);
-    backdrop-filter: blur(10px);
-    border-radius: 2rem 2rem 1rem 1rem;
-    margin-top: -1.5rem;
-    box-shadow: var(--shadow) 0 -3px 20px;
-    padding-top: 2.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
 
     .title {
+      flex-grow: 1;
       font-size: xx-large;
-      text-align: center;
       font-family: 'Solway', serif;
       color: var(--secondary);
-    }
-
-    .nav {
-      padding-top: 2rem;
-      display: flex;
-      justify-content: space-evenly;
-      margin-bottom: 1rem;
     }
   }
 }

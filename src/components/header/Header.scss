@@ -1,6 +1,10 @@
 #Header {
-  padding-top: clamp(1rem, 5vw, 5rem);
+  background: var(--light-background);
+  backdrop-filter: blur(5px);
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: var(--shadow) 0 10px 20px 0;
   display: flex;
+  padding: 1rem;
   align-items: center;
   justify-content: center;
   position: relative;

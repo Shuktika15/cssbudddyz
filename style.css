@@ -12,8 +12,8 @@
 
 .dark-theme {
     --primary: #162447;
-    --secondary: #DBCBBD;
-    --accent: #1414a4;
+    --secondary: #ffffff;
+    --accent: #5a34ba;
     --light-background: rgba(0, 0, 0, 0.1);
     --dark-background: rgba(0, 0, 0, 0.3);
     --shadow: rgba(255, 255, 255, 0.2);
